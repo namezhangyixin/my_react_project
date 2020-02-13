@@ -21,7 +21,7 @@ class Login extends Component {
 		 callback()
 	 }
 	}
-
+        //注释////////////////////////////////////
 	handleSubmit = (event)=>{
 		event.preventDefault()
 		this.props.form.validateFields((err,values)=>{
